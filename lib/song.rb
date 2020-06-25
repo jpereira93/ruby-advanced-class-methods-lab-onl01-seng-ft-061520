@@ -50,5 +50,3 @@ def find_or_create_by_name(name)
 		def destroy_all
 			self.all.clear
 		end
-
-	end
