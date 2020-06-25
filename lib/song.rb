@@ -30,7 +30,6 @@ end
 
 def self.find_by_name(song_name)
 self.all.find{|song_name| self.name = song_name}
-  song
 end
   # def self.new_by_name
 
