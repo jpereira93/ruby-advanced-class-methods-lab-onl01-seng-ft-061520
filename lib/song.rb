@@ -28,7 +28,7 @@ class Song
     song
 end
 
-def self.find_by_name
+def self.find_by_name("The middle")
   song = self.find
   song.name = name
   song
