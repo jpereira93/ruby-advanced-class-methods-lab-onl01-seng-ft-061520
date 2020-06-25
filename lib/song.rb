@@ -16,6 +16,11 @@ class Song
     return song
   end
 
+  def slef.new_by_name
+    song = self.new_by_name
+    song.name = name
+    song
+
   # def self.new_by_name
 
 end
