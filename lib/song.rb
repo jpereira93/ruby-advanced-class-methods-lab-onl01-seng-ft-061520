@@ -23,7 +23,7 @@ class Song
   end
 
   def self.create_by_name(name)
-    song = self.new
+    song = self.create
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
     song.name = name
     song
