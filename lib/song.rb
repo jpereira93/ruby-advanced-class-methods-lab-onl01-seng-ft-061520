@@ -28,7 +28,7 @@ class Song
     song
 end
 
-def self.find_by_name(name)
+def self.find_by_name
   @@all = self.find_by_name
   song.name = name
   song
