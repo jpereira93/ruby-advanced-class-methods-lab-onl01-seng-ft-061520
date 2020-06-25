@@ -11,9 +11,9 @@ class Song
   end
 
   def self.create
-    song = Song.new
+    Song = Song.new
     @all << self
-    return song
+    return Song
   end
 
   def self.new_by_name
