@@ -23,7 +23,7 @@ class Song
   end
 
   def self.create_by_name(name)
-    song = self.new(name)
+    song = self.create
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
     song
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
