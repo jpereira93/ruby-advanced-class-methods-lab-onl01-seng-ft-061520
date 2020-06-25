@@ -26,7 +26,7 @@ class Song
     song = self.create
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
     song.name = name
-
+    song
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
 end
   # def self.new_by_name
