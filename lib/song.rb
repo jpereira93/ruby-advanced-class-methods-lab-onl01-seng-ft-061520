@@ -25,9 +25,9 @@ class Song
   def self.create_by_name(name)
     song = self.create
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
-    song.create = song_name
+    song.name = name
+
     #=> #<Song:0x007fd2a2989ff0 @name="The Middle">
-    Song.all.include?(song)
 end
   # def self.new_by_name
 
