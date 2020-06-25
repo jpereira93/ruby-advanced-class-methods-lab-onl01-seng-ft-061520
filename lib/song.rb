@@ -29,9 +29,8 @@ class Song
 end
 
 def self.find_by_name(name)
-  song = self.find_by_name("The Middle")
-  song.name = name
-  song
+the_middle = Song.create_by_name("The Middle")
+
 end
   # def self.new_by_name
 
